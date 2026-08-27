@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgPort" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#047857"/>
+      <stop offset="100%" stop-color="#065F46"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#bgPort)"/>
+  <g transform="translate(180, 25)">
+    <rect x="0" y="0" width="240" height="310" rx="30" fill="#064E3B" stroke="#10B981" stroke-width="4"/>
+    <rect x="8" y="8" width="224" height="294" rx="24" fill="#022C22"/>
+    <rect x="75" y="14" width="90" height="12" rx="6" fill="#064E3B"/>
+    <!-- Code Editor UI Mockup -->
+    <circle cx="28" cy="45" r="4" fill="#EF4444"/>
+    <circle cx="40" cy="45" r="4" fill="#F59E0B"/>
+    <circle cx="52" cy="45" r="4" fill="#10B981"/>
+    <!-- Lighthouse Score Badge -->
+    <circle cx="120" cy="115" r="42" fill="none" stroke="#10B981" stroke-width="6"/>
+    <text x="100" y="123" fill="#34D399" font-size="24" font-weight="bold" font-family="sans-serif">100</text>
+    <text x="70" y="175" fill="#A7F3D0" font-size="12" font-weight="bold" font-family="sans-serif">Performance: 100%</text>
+    <text x="76" y="195" fill="#6EE7B7" font-size="11" font-family="sans-serif">SEO & Accessibility</text>
+    <!-- Github stars -->
+    <rect x="44" y="225" width="152" height="36" rx="18" fill="#065F46"/>
+    <text x="65" y="248" fill="#FCD34D" font-size="12" font-weight="bold" font-family="sans-serif">⭐ 1,250+ Stars</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgSaas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181B"/>
+      <stop offset="100%" stop-color="#27272A"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#bgSaas)"/>
+  <g transform="translate(180, 25)">
+    <rect x="0" y="0" width="240" height="310" rx="30" fill="#09090B" stroke="#3F3F46" stroke-width="4"/>
+    <rect x="8" y="8" width="224" height="294" rx="24" fill="#18181B"/>
+    <rect x="75" y="14" width="90" height="12" rx="6" fill="#09090B"/>
+    <!-- Kanban Header -->
+    <text x="24" y="55" fill="#F43F5E" font-size="13" font-weight="bold" font-family="sans-serif">⚡ TaskFlow Kanban</text>
+    <rect x="24" y="65" width="60" height="22" rx="6" fill="#F43F5E"/>
+    <text x="32" y="80" fill="#FFFFFF" font-size="10" font-weight="bold" font-family="sans-serif">Sprint 42</text>
+    <!-- Task Card 1 -->
+    <rect x="24" y="98" width="192" height="60" rx="10" fill="#27272A" stroke="#3F3F46" stroke-width="1"/>
+    <rect x="34" y="108" width="50" height="14" rx="4" fill="#3B82F6"/>
+    <text x="40" y="119" fill="#FFFFFF" font-size="8" font-family="sans-serif">In Progress</text>
+    <text x="34" y="138" fill="#F4F4F5" font-size="11" font-weight="bold" font-family="sans-serif">Thiết kế Mobile UX</text>
+    <!-- Task Card 2 -->
+    <rect x="24" y="168" width="192" height="60" rx="10" fill="#27272A" stroke="#3F3F46" stroke-width="1"/>
+    <rect x="34" y="178" width="50" height="14" rx="4" fill="#10B981"/>
+    <text x="45" y="189" fill="#FFFFFF" font-size="8" font-family="sans-serif">Review</text>
+    <text x="34" y="208" fill="#F4F4F5" font-size="11" font-weight="bold" font-family="sans-serif">Tối ưu API Supabase</text>
+    <!-- Bottom Add Bar -->
+    <rect x="24" y="248" width="192" height="38" rx="10" fill="#3F3F46"/>
+    <text x="65" y="272" fill="#E4E4E7" font-size="11" font-weight="bold" font-family="sans-serif">+ Thêm công việc mới</text>
+  </g>
+</svg>

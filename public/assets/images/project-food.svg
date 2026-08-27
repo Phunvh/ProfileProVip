@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgFood" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E1B4B"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#bgFood)"/>
+  <g transform="translate(180, 25)">
+    <rect x="0" y="0" width="240" height="310" rx="30" fill="#020617" stroke="#4338CA" stroke-width="4"/>
+    <rect x="8" y="8" width="224" height="294" rx="24" fill="#0F172A"/>
+    <!-- Top bar -->
+    <rect x="75" y="14" width="90" height="12" rx="6" fill="#020617"/>
+    <!-- Search Bar -->
+    <rect x="24" y="45" width="192" height="34" rx="10" fill="#1E293B"/>
+    <text x="45" y="66" fill="#94A3B8" font-size="11" font-family="sans-serif">🔍 Tìm kiếm món ngon...</text>
+    <!-- Food card 1 -->
+    <rect x="24" y="90" width="192" height="75" rx="12" fill="#1E293B"/>
+    <circle cx="58" cy="127" r="24" fill="#F59E0B"/>
+    <text x="50" y="133" font-size="20">🍕</text>
+    <text x="92" y="115" fill="#F8FAFC" font-size="12" font-weight="bold" font-family="sans-serif">Pizza Phô Mai Lava</text>
+    <text x="92" y="132" fill="#F59E0B" font-size="11" font-weight="bold" font-family="sans-serif">159.000 đ</text>
+    <rect x="92" y="142" width="70" height="18" rx="5" fill="#EF4444"/>
+    <text x="105" y="155" fill="#FFFFFF" font-size="9" font-weight="bold" font-family="sans-serif">+ Thêm</text>
+    <!-- Food card 2 -->
+    <rect x="24" y="175" width="192" height="75" rx="12" fill="#1E293B"/>
+    <circle cx="58" cy="212" r="24" fill="#10B981"/>
+    <text x="50" y="218" font-size="20">🥑</text>
+    <text x="92" y="200" fill="#F8FAFC" font-size="12" font-weight="bold" font-family="sans-serif">Salad Bơ Nhiệt Đới</text>
+    <text x="92" y="217" fill="#10B981" font-size="11" font-weight="bold" font-family="sans-serif">89.000 đ</text>
+    <!-- Floating Cart Bar -->
+    <rect x="24" y="260" width="192" height="32" rx="10" fill="#EF4444"/>
+    <text x="40" y="280" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">🛒 2 món | 248.000 đ</text>
+    <text x="165" y="280" fill="#FFFFFF" font-size="11" font-weight="bold" font-family="sans-serif">Mua →</text>
+  </g>
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgFintech" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="360" rx="16" fill="url(#bgFintech)"/>
+  <!-- Phone Frame Mockup -->
+  <g transform="translate(180, 25)">
+    <!-- Phone Outer -->
+    <rect x="0" y="0" width="240" height="310" rx="30" fill="#020617" stroke="#334155" stroke-width="4"/>
+    <!-- Screen -->
+    <rect x="8" y="8" width="224" height="294" rx="24" fill="#0F172A"/>
+    <!-- Top Notch -->
+    <rect x="75" y="14" width="90" height="12" rx="6" fill="#020617"/>
+    <!-- App UI Header -->
+    <text x="24" y="55" fill="#94A3B8" font-size="11" font-family="sans-serif">Tổng tài sản</text>
+    <text x="24" y="82" fill="#F8FAFC" font-size="20" font-weight="bold" font-family="sans-serif">₫ 145,280,000</text>
+    <!-- Card Mockup -->
+    <rect x="24" y="98" width="192" height="75" rx="12" fill="url(#cardGrad)"/>
+    <circle cx="50" cy="120" r="10" fill="rgba(255,255,255,0.4)"/>
+    <circle cx="62" cy="120" r="10" fill="rgba(255,255,255,0.4)"/>
+    <text x="50" y="155" fill="#FFFFFF" font-size="11" font-family="sans-serif">**** **** **** 8899</text>
+    <!-- Quick actions -->
+    <rect x="24" y="186" width="55" height="30" rx="8" fill="#1E293B"/>
+    <text x="35" y="205" fill="#38BDF8" font-size="10" font-family="sans-serif">Chuyển</text>
+    <rect x="92" y="186" width="55" height="30" rx="8" fill="#1E293B"/>
+    <text x="105" y="205" fill="#34D399" font-size="10" font-family="sans-serif">Nạp</text>
+    <rect x="160" y="186" width="55" height="30" rx="8" fill="#1E293B"/>
+    <text x="168" y="205" fill="#F472B6" font-size="10" font-family="sans-serif">Thống kê</text>
+    <!-- Chart lines -->
+    <path d="M 24 260 Q 60 230 100 245 T 180 230 T 216 220" fill="none" stroke="#10B981" stroke-width="3"/>
+  </g>
+</svg>

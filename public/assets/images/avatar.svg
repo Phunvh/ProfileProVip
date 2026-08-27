@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3B82F6"/>
+      <stop offset="50%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="95" fill="url(#avatarGrad)" />
+  
+  <!-- Subtle decorative rings -->
+  <circle cx="100" cy="100" r="88" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2" stroke-dasharray="6,6"/>
+  
+  <!-- Character Illustration -->
+  <g filter="url(#shadow)">
+    <!-- Shoulders / Shirt -->
+    <path d="M 40 180 C 40 145, 70 135, 100 135 C 130 135, 160 145, 160 180 Z" fill="#1E293B"/>
+    <!-- Shirt Collar (Modern Tech Hoodie) -->
+    <path d="M 85 135 L 100 155 L 115 135 Z" fill="#3B82F6"/>
+    <!-- Neck -->
+    <rect x="90" y="115" width="20" height="25" rx="5" fill="#FBBF24"/>
+    <!-- Head -->
+    <ellipse cx="100" cy="95" rx="38" ry="42" fill="#FDE68A"/>
+    <!-- Hair -->
+    <path d="M 62 85 C 60 55, 95 45, 135 55 C 140 75, 138 85, 138 85 C 135 70, 115 65, 95 68 C 75 72, 65 80, 62 85 Z" fill="#0F172A"/>
+    <path d="M 62 85 C 60 70, 70 55, 90 52 C 105 50, 125 53, 136 65" stroke="#0F172A" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <!-- Glasses -->
+    <rect x="72" y="86" width="22" height="16" rx="4" fill="none" stroke="#0F172A" stroke-width="3.5"/>
+    <rect x="106" y="86" width="22" height="16" rx="4" fill="none" stroke="#0F172A" stroke-width="3.5"/>
+    <line x1="94" y1="94" x2="106" y2="94" stroke="#0F172A" stroke-width="3"/>
+    <!-- Eyes -->
+    <circle cx="83" cy="94" r="2.5" fill="#0F172A"/>
+    <circle cx="117" cy="94" r="2.5" fill="#0F172A"/>
+    <!-- Smile -->
+    <path d="M 90 115 Q 100 123 110 115" stroke="#D97706" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+</svg>
