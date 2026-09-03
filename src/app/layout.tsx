@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Plus_Jakarta_Sans, Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "../components/ThemeProvider";
@@ -17,13 +17,18 @@ const vietnam = Be_Vietnam_Pro({
   display: "swap",
 });
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1.0,
+  maximumScale: 5.0,
+};
+
 export const metadata: Metadata = {
   title: `${profileData.personal.name} | ${profileData.personal.title}`,
   description: profileData.personal.bio,
   icons: {
     icon: "/assets/icons/favicon.svg",
   },
-  viewport: "width=device-width, initial-scale=1.0, maximum-scale=5.0",
 };
 
 export default function RootLayout({
